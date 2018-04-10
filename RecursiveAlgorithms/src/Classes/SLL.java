@@ -49,7 +49,7 @@ public class SLL<E> {
    
    public void reverse() { 
 	   if (size > 1)  
-		     first=recReverse(first).fi;
+		     first=recReverse(first);
    }
    
    private Node<E> recReverse(Node<E> b) { 
